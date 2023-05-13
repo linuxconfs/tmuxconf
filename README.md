@@ -19,3 +19,8 @@ https://tmuxcheatsheet.com/
 | 2 | continuum | auto reload resurrect stored contents |
 | 3 | [dracula/tmux](https://draculatheme.com/tmux) | a popular theme |
 | 4 | tmux.nvim | plugin for nvim, navigator, resize, copy paste |
+
+``` plantuml
+Bob -> Alice : hello
+```
+
