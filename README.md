@@ -11,6 +11,10 @@ tmux ls | grep -v $(tmux display-message -p '#S'): | cut -d: -f1 | xargs -n1 tmu
 
 ## Requirements
 
+### need fetch tpm is needed
+
+`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+
 ### [fzf](https://github.com/junegunn/fzf/) (need by tmux-fzf plugin)
 
 `sudo apt install fzf`
